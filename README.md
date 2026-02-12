@@ -1,4 +1,7 @@
 # murtaza-website
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
 <meta charset="UTF-8">
 <title>Murtaza Rafiq</title>
@@ -95,6 +98,28 @@ h1 {
     to { opacity: 1; }
 }
 
+.hashtags {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #dd2476;
+    font-weight: 600;
+}
+
+.hashtags p {
+    margin: 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 600;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+
 @media(max-width:600px){
     .box { padding: 30px 20px; }
     img { width: 140px; }
@@ -109,12 +134,11 @@ h1 {
 <canvas id="particles"></canvas>
 
 <div class="box">
-    <!-- Heading only -->
     <h1>Murtaza Rafiq</h1>
     
     <img src="murtaza.jpg" alt="Murtaza Rafiq">
 
-    <!-- Buttons only, NO extra username/app name -->
+    <!-- Buttons -->
     <a href="https://youtube.com/@murtazarafiq" target="_blank" class="social-btn">
         <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube Icon"> YouTube
     </a>
@@ -139,7 +163,16 @@ h1 {
         <img src="https://cdn-icons-png.flaticon.com/512/888/888857.png" alt="Android Icon"> Android App
     </a>
 
+    <!-- Hashtags -->
+    <div class="hashtags">
+        <p>#MurtazaRafiq #YouTube #Instagram #Academy #Apps</p>
+    </div>
 </div>
+
+<!-- Footer with developer name -->
+<footer>
+    <p>Website Developed by UFAIQ DAR</p>
+</footer>
 
 <script>
 // Particle JS
