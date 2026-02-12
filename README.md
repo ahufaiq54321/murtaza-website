@@ -17,9 +17,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(270deg, #ff512f, #dd2476, #ff7b54, #ff4f70);
-    background-size: 800% 800%;
-    animation: gradientBG 20s ease infinite;
+    background: linear-gradient(135deg, #ff512f, #dd2476);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
     overflow: hidden;
 }
 
@@ -77,8 +77,7 @@ img:hover { transform: scale(1.1); }
 }
 
 .social-btn img {
-    width: 25px;
-    height: 25px;
+    width: 25px; height: 25px;
     margin-right: 10px;
     filter: invert(1);
 }
@@ -88,36 +87,15 @@ img:hover { transform: scale(1.1); }
     box-shadow: 0 0 20px #ff512f, 0 0 30px #dd2476;
 }
 
-h1 {
+h1, p {
     opacity: 0;
     animation: fadeIn 1s forwards;
-    animation-delay: 0.5s;
 }
+h1 { animation-delay: 0.5s; }
+p { animation-delay: 1s; }
 
 @keyframes fadeIn {
     to { opacity: 1; }
-}
-
-.hashtags {
-    margin-top: 20px;
-    font-size: 14px;
-    color: #dd2476;
-    font-weight: 600;
-}
-
-.hashtags p {
-    margin: 0;
-}
-
-footer {
-    position: fixed;
-    bottom: 10px;
-    width: 100%;
-    text-align: center;
-    font-size: 14px;
-    color: #ffffff;
-    font-weight: 600;
-    text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
 }
 
 @media(max-width:600px){
@@ -138,13 +116,14 @@ footer {
     
     <img src="murtaza.jpg" alt="Murtaza Rafiq">
 
-    <!-- Buttons -->
+    <p>Follow & Visit:</p>
+
     <a href="https://youtube.com/@murtazarafiq" target="_blank" class="social-btn">
-        <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube Icon"> YouTube
+        <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube Icon"> YouTube (@murtazarafiq)
     </a>
 
     <a href="https://www.instagram.com/emminerrr" target="_blank" class="social-btn">
-        <img src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png" alt="Instagram Icon"> Instagram
+        <img src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png" alt="Instagram Icon"> Instagram (@emminerrr)
     </a>
 
     <a href="https://emminerrworld.com/home" target="_blank" class="social-btn">
@@ -152,7 +131,7 @@ footer {
     </a>
 
     <a href="https://www.instagram.com/_thespeedykart" target="_blank" class="social-btn">
-        <img src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png" alt="Instagram Icon"> Instagram
+        <img src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png" alt="Instagram Icon"> Instagram (@_thespeedykart)
     </a>
 
     <a href="https://apps.apple.com/in/app/the-speedykart/id6523429465" target="_blank" class="social-btn">
@@ -163,16 +142,7 @@ footer {
         <img src="https://cdn-icons-png.flaticon.com/512/888/888857.png" alt="Android Icon"> Android App
     </a>
 
-    <!-- Hashtags -->
-    <div class="hashtags">
-        <p>#MurtazaRafiq #YouTube #Instagram #Academy #Apps</p>
-    </div>
 </div>
-
-<!-- Footer with developer name -->
-<footer>
-    <p>Website Developed by UFAIQ DAR</p>
-</footer>
 
 <script>
 // Particle JS
@@ -232,4 +202,4 @@ window.addEventListener('resize',()=>{
 </script>
 
 </body>
-</html>
+</html><img src="murtaza.jpg.png" alt="Murtaza Rafiq">
