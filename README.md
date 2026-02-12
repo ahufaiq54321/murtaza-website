@@ -1,4 +1,7 @@
 # murtaza-website
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
 <meta charset="UTF-8">
 <title>Murtaza Rafiq</title>
@@ -111,7 +114,7 @@ p { animation-delay: 1s; }
 <div class="box">
     <h1>Murtaza Rafiq</h1>
     
-    <img src="murtaza.jpg" alt="Murtaza Rafiq">
+    <img src="murtaza.jpg.png" alt="Murtaza Rafiq">
 
     <p>Follow & Visit:</p>
 
@@ -138,6 +141,9 @@ p { animation-delay: 1s; }
     <a href="https://play.google.com/store/apps/details?id=com.speedy.speedycustomer" target="_blank" class="social-btn">
         <img src="https://cdn-icons-png.flaticon.com/512/888/888857.png" alt="Android Icon"> Android App
     </a>
+
+    <!-- Developer Name Footer -->
+    <p style="margin-top:20px; font-size:14px; color:#555;">Developer: UFAIQ DAR</p>
 
 </div>
 
@@ -200,4 +206,3 @@ window.addEventListener('resize',()=>{
 
 </body>
 </html>
-<img src="murtaza.jpg.png" alt="Murtaza Rafiq">
