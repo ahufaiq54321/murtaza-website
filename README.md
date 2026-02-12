@@ -1,7 +1,4 @@
 # murtaza-website
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
 <meta charset="UTF-8">
 <title>Murtaza Rafiq</title>
